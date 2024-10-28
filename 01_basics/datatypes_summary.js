@@ -35,3 +35,28 @@ const myFunction = function(){
    console.log("Hello World");
 }
 console.log(myFunction);
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (Primitive),  Heap (Non-Primitive)
+
+
+let mychannelOne = "tohusnainjaved"
+let mychannelTwo = mychannelOne
+mychannelTwo = "babarazam"
+console.log(mychannelOne);
+console.log(mychannelTwo);
+
+
+
+let userOne = {
+    email: "tohusnainjaved@gmail.com",
+    upi: "thj@ybl.com",
+}
+let userTwo = userOne
+userTwo.email = "hj56@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
