@@ -13,7 +13,7 @@ let userEmail;
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
-console.log(id == anotherId)
+// console.log(id == anotherId)    => False
 
 
 const bigNumber = 2366329236269278345n
@@ -36,6 +36,7 @@ const myFunction = function(){
 }
 console.log(myFunction);
 
+//    Non-Primitive Datatypes are always "Objects".
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -49,6 +50,8 @@ mychannelTwo = "babarazam"
 console.log(mychannelOne);
 console.log(mychannelTwo);
 
+// in stack, it gives us a copy of varible's value that is changed
+
 
 
 let userOne = {
@@ -60,3 +63,6 @@ userTwo.email = "hj56@google.com"
 
 console.log(userOne.email);
 console.log(userTwo.email);
+console.log(userTwo.upi);
+
+// in heap, it doesnot gives us a copy of varible's value that is to be changed but it changes both the values
