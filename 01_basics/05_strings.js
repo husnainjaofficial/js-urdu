@@ -17,11 +17,15 @@ const gameName = new String('Husnainfc')
 const newString = gameName.substring(0,5)
 //  console.log(newString);                   => Husn  (it only gives from 0 to 4 not including 5)
 
-//  const anotherString = gameName.slice(-8, 6)
+const anotherString = gameName.slice(-8, 6)
 //  console.log(anotherString);
 
 const newStringOne = "    Husnain    "
 //  console.log(newStringOne);
 //  console.log(newStringOne.trim());            => It trims the extra spaces
 
+const url = "https://husnain.com/husnain&20javed"
+//   console.log(url.replace('&20', '-'));            => To replace the url value
 
+const gamecode = "Husnain-javed-fc"
+//  console.log(gamecode.split('-'));                 => It splits the value on the basis of given Expression i.e "-"
